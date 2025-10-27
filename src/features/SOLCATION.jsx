@@ -8,7 +8,7 @@ import Project4_3 from "../assets/images/project4/Project4_3.png";
 import Project4_4 from "../assets/images/project4/Project4_4.png";
 import Project4_5 from "../assets/images/project4/Project4_5.gif";
 
-import Video from "../assets/videos/Project4_1.mp4";
+// import Video from "../assets/videos/Project4_1.mp4";
 
 import { motion } from "framer-motion";
 import useResponsive from "../hooks/useResponsive";
