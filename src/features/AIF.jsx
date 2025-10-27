@@ -7,7 +7,7 @@ import Logo from "../assets/logos/Project1_logo.png";
 import Project1_1 from "../assets/images/project1/Project1_1.png";
 import Project1_2 from "../assets/images/project1/Project1_2.png";
 import ProjectDetailHeader from "../components/common/ProjectDetailHeader";
-import Video from "../assets/videos/Project1_1.mp4";
+import Video from "../assets/videos/Project1_1.mov";
 import VideoSection from "../components/common/VideoSection";
 import BlogLinkCard from "../components/common/BlogLinkCard";
 
