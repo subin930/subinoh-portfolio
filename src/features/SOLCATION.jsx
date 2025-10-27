@@ -16,6 +16,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { ExternalLink } from "lucide-react";
 import { SiTistory } from "react-icons/si";
 import TroubleShooting from "../components/common/TroubleShooting";
+import YouTubeSection from "../components/common/YoutubeSection";
 
 const SOLCATION = () => {
   const { isMobile } = useResponsive();
@@ -524,8 +525,14 @@ const SOLCATION = () => {
       />
 
       {/* 비디오 섹션 */}
-      <VideoSection
+      {/* <VideoSection
         video={Video}
+        title="시연 영상"
+        description="쏠케이션은 다음과 같이 동작합니다."
+      /> */}
+
+      <YouTubeSection
+        videoId="4V9dc6S7Gx4"
         title="시연 영상"
         description="쏠케이션은 다음과 같이 동작합니다."
       />

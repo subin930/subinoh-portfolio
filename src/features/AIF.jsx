@@ -7,9 +7,10 @@ import Logo from "../assets/logos/Project1_logo.png";
 import Project1_1 from "../assets/images/project1/Project1_1.png";
 import Project1_2 from "../assets/images/project1/Project1_2.png";
 import ProjectDetailHeader from "../components/common/ProjectDetailHeader";
-import Video from "../assets/videos/Project1_1.mov";
+import Video from "../assets/videos/Project1_1.mp4";
 import VideoSection from "../components/common/VideoSection";
 import BlogLinkCard from "../components/common/BlogLinkCard";
+import YouTubeSection from "../components/common/YoutubeSection";
 
 import { motion } from "framer-motion";
 import useResponsive from "../hooks/useResponsive";
@@ -201,28 +202,28 @@ const AIF = () => {
     <div className="bg-background-dp min-h-screen md:px-[16%]">
       {/* Header + Overview */}
       <ProjectDetailHeader {...projectData} />
-
       {/* 담당 역할 */}
       <ProjectContribution contributions={contributions} />
-
       {/* 기여에 대한 자세한 설명 */}
       <Contribution1 />
-
       <Accomplishment />
-
       {/* 비디오 섹션 */}
-      <VideoSection
+      {/* <VideoSection
         video={Video}
         title="시연 영상"
         description="디바이스는 다음과 같이 동작합니다."
-      />
+      /> */}
 
+      <YouTubeSection
+        videoId="ugHWal4_ciw"
+        title="시연 영상"
+        description="디바이스는 다음과 같이 동작합니다."
+      />
       {/* <BlogLinkCard
         url="https://m.blog.naver.com/..."
         title="하루 1% 15분의 힘이 주는 아침 에너지"
         description="변화의 시작은 하루 1%로 충분하다. 하루 1%만 투자하면 개인이든 조직..."
       /> */}
-
       {/* 여백 */}
       <div className="h-20"></div>
     </div>
