@@ -116,7 +116,7 @@ const Education = () => {
                 <div className="flex flex-col">
                   <div className="flex items-start justify-between mb-2">
                     <p className="text-body-small md:text-body-medium text-light-blue font-semibold">
-                      2024.04 - 2024.09
+                      2025.04 - 2025.09
                     </p>
                   </div>
                   <h3 className="text-title-medium md:text-title-large font-bold text-gray-0 mb-2">
