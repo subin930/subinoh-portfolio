@@ -49,7 +49,7 @@ const SOLCATION = () => {
     image: Project4_1,
     overviewContent: overviewContent,
     techStack: [
-      { name: "Spring Boot", icon: "SpringBoot", color: "#6DB33F" },
+      { name: "SpringBoot", icon: "SpringBoot", color: "#6DB33F" },
       { name: "React", icon: "React", color: "#61DAFB" },
       { name: "Redis", icon: "Redis", color: "#DC382D" },
       { name: "MariaDB", icon: "MariaDB", color: "#003545" },
